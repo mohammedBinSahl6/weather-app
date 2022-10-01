@@ -1,0 +1,45 @@
+:root{
+    --c:#544a7d;
+    --c2:#ffd452;
+}
+
+body{
+    background: linear-gradient(45deg, var(--c),var(--c2));
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    transition: 0.5s!important;
+}
+.search{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{ 
+    width: 70vh;
+    margin: 1vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    padding: 0 1em;
+    font-size: 140%;
+
+}
+.info-box{
+    padding:0  1em;
+}
+
+.card{
+    border-radius: 13px;
+    box-shadow: 2px 3px 10px;
+}
+.msg{
+    display: none;
+}
+.footer a{
+    color: white;
+}
