@@ -20,7 +20,7 @@ body{
 }
 
 .search-bar{ 
-    width: 70vh;
+    width: 100%;
     margin: 1vh;
     border-radius: 10px;
     outline: none;
